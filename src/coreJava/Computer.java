@@ -9,7 +9,7 @@ public class Computer {
 	
 	public Computer() {
 	}
-	
+
 	public Computer(int year) {
 		this.year=year;
 		System.out.println(year);
