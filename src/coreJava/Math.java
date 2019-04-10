@@ -15,9 +15,8 @@ public class Math {
 	
 	//Static Method - Void
 	public static void getTime() {
-		System.out.println("Current Time is .....");
+		
 	}
-
 	
 	//Non Static Method - Return Type
 	public int calculator1(int a, int b) {
@@ -28,7 +27,7 @@ public class Math {
 	
 	//Static Method - Return Type 
 	public static int calculator2(int a, int b) {
-		int total = a - b;
+		int total = a / b;
 	return total;
 	}
 }

@@ -5,7 +5,7 @@ public class DataTypes {
 	public static void main(String [] args) {
 		String firstName = "Apu";
 		String lastName = "Ahmed";
-		
+
 		System.out.println(firstName+" "+lastName);
 		
 		//Byte - 8 bit
@@ -31,7 +31,6 @@ public class DataTypes {
 		
 		//char - charecter - unicode - 16 bit
 		char h = '\u00e5';
-	
 		
 		//boolean - true or false
 		boolean s = false;
