@@ -2,7 +2,6 @@ package oop;
 
 public class Encapsulation {
 	
-	
 	private  int ID;
 	private String Name;
 	

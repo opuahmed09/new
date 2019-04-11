@@ -22,6 +22,10 @@ public class Execution {
 	
 		int newValue2= Math.calculator2(10, 5);
 		System.out.println(newValue2);
+
+
+		Math.calculator2(10,10);
+
 		
 	}
 	

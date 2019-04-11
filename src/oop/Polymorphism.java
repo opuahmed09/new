@@ -2,7 +2,7 @@ package oop;
 
 public class Polymorphism extends ConcreteCar {
 //Method Overloading
-	//same method , different parameters
+	//same method name, different parameters, in same class
 	
 	public void calculator(int a,int b) {
 		int c = a+b;
@@ -16,9 +16,10 @@ public class Polymorphism extends ConcreteCar {
 	}
 	
 	//Method Overriding
+	//same method name , same parameters, different body, in different class (uses extend)
 	@Override
 	public void autoHeadLight(int a) {
-		System.out.println(a+"headlight --- polymorphism class");
+		System.out.println(a+" headlight --- polymorphism class");
 
 	}
 	
